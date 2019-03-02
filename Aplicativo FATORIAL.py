@@ -8,11 +8,8 @@ while True:
         print('*********************')
         num = int(input('Escreva seu Número inteiro >=0 (Número negativo para sair) = '))
         if num < 0:
-            print('Aplicativo fechando', sep='', end='')
-            for exit in range(3):
-                print('.', sep='', end='')
-                time.sleep(0.5)
-            time.sleep(0.5)
+            print('Aplicativo fechando...', sep='', end='')
+            time.sleep(1)
             break
         print(num, '! = ', sep='', end='')
         if num <=10:
